@@ -37,7 +37,7 @@ def process_grants(grants):
     for grant in grants:
         grant = grant.split(":")
         if grant[0] == '"Cancer Research UK"':
-            grant_output.append(grant[1].strip('"'))
+            grant_output.append(grant[1].strip('"').strip())
     return(",".join(grant_output))
 
 def parse_data(names, data):
