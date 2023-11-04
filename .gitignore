@@ -1,3 +1,9 @@
+# Custom
+
+data/*
+output/*
+create_bibliography.sh
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
